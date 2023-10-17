@@ -1,0 +1,20 @@
+/************************************************/
+/* style sheet for Black Mirror tribute site   */
+/* author: María Lucía López López            */
+/* version: 1.0                              */
+/* comment: project for lenguajes de marcas */
+/*******************************************/
+font-face{src: url(../fonts/OpenSans-Regular.ttf;)}
+font-face{src:url(../fonts/FontsFree-Next.Proxima-Nova-Bold.otf);
+            font-family:blackmirror;}
+body {margin: 0; padding: 0; /* para eliminar espacio superior en body */
+      background-color: #13131C;
+      color:#dfdbe4;
+      font-family: textonormal;} /* se usa la fuente externa con el nombre que le hemos asignado*/
+h1{font-family: blackmirror;
+      text-align: center;
+      color:#13131C;
+      text-shadow:2px 2px 2px rgba(211, 211, 211, 0.922);}
+#wrapper{background-color: #ffffff91;
+         width: 80%;        /*el contenido de la pagina no llega de punta a punta */
+         margin: auto;}    /* se centra el contenido de la página */
