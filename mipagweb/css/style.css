@@ -1,0 +1,26 @@
+/*************************************************/
+/*     Style de external-styled-text.html       */
+/*     author:María Lucía López López          */
+/*     version: 1.0                           */
+/*     comments: only a class exercise       */
+/********************************************/
+
+
+
+/* wildcard, todos los elementos de la página */
+* {font-size:1.2em;}
+* {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+
+/*selectores de etiqueta */
+body {background-color: rgba(57, 218, 57, 0.836); 
+        color:black;}
+h1 {color:rgba(118, 118, 232, 0.764);
+        text-align:center;}
+h2 {color:salmon;}
+
+/* selector de identificador */
+#primero {color:red}
+.centrado {text-align: center;}
+
+/* selectores anidados (nested) */
+#primero b {color: blueviolet}
